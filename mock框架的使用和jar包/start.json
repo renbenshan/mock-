@@ -2,10 +2,13 @@
   {
     "description": "这是练习的第一个demo",
     "request": {
-      "url": "/demo/view"
+      "uri": "/demo/view"
     },
     "response": {
-      "text": "恭喜你完成第一个demo"
+      "text": "恭喜你完成第一个demo",
+      "headers": {
+        "Content-Type": "utf-8"
+      }
     }
   }
 ]
